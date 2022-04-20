@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./mywebfiles/myweb.css">
+    <meta charset="utf-8">
+</head>
+
+
+<body>
+    <div class="home">
+        <div class="content">
+            <div class="stars"></div>
+            <img class="bgc" src="./img/imgs38.jpeg" width="100%" alt="">
+            <h3 class="surprise">点击右下角有惊喜!</h3>
+            <h3 class="title">欢迎来到我的个人网站</h3>
+            <h3 class="titles">今天也要加油鸭</h3>
+            <img class="icon" src="./img/down.png" alt="">
+            <div class='ribbon'>
+                <a href='./index.html'><span>Home</span></a>
+                <a href='./mywebfiles/about.html'><span>About</span></a>
+                <a href='./mywebfiles/form.html'><span>Form</span></a>
+
+            </div>
+
+        </div>
+        <div class="icons">
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/xuexiao.jpeg" alt="">
+                <span>我们每天穿梭于教学楼之间</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/canting.jpeg" alt="">
+                <span>一到中午对吃什么又犯了选择困难</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/fengjing.jpeg" alt="">
+                <span>午饭过后可以躺着休息晒晒太阳的小山坡</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/yewan.jpeg" alt="">
+                <span>忙碌的一天结束啦爬上小床跟世界说晚安</span>
+            </div>
+        </div>
+        <div class="introduce">
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="./img/imgs15.jpeg" alt="">
+                <span class="introduce_item_title">蓝白红三色相映成辉<br>
+                    求是大讲堂<br>
+                    沉淀着历史与担当<br>
+                    拾级而上<br>
+                    轻叩门扉<br>
+                    于充满活力的蓝天之下<br>
+                    展望新的未来</span>
+            </div>
+            <div class="introduce_item">
+                <span class="introduce_item_titles">置身于连廊<br>
+                    晴空似乎触手可及<br>
+                    昔日的人潮逐渐散去<br>
+                    不时的蝉鸣<br>
+                    宜人的晚风<br>
+                    故事氛围十足的教学楼<br>
+                    也在期待着<br>
+                    与你有关的情节</span>
+                <img class="introduce_item_img" src="./img/imgs16.jpeg" alt="">
+            </div>
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="./img/imgs36.jpeg" alt="">
+                <span class="introduce_item_title">夜幕将至<br>
+                    余晖逐渐收紧<br>
+                    清澈的天空蓝慢慢褪去<br>
+                    暖色层层晕染<br>
+                    明亮与昏暗之间<br>
+                    是流转的点滴时光</span>
+            </div>
+            <div class="introduce_item">
+                <span class="introduce_item_titles">浓郁的夜色<br>
+                    已然登场<br>
+                    白日的燥热逐渐散去<br>
+                    星星点点的灯光<br>
+                    将归人疲惫的心照亮</span>
+                <img class="introduce_item_img" src="./img/imgs14.jpeg" alt="">
+            </div>
+        </div>
+        <audio autoplay="autoplay" id="audio" loop="loop">
+                <source src="./img/music.mp3" type="audio/MP3">
+               
+        </audio>
+        <img class="music_img" src="./img/music.png" alt="">
+    </div>
+
+</body>
+<script>
+    var mucics = document.getElementById('audio');
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);
+    }, false);
+    // window.onload = function() {
+    //     setInterval("toggleSound()", 100);
+    // }
+
+    // function toggleSound() {
+    //     var music = document.getElementById("audio"); //获取ID  
+    //     music.play(); //没有就播放 
+    // }
+</script>
+
+</html>
